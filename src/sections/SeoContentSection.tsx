@@ -30,7 +30,7 @@ export function SeoContentSection() {
                   </span>
                   <span>
                     <span className="font-extrabold text-slate-900">Target the right searches:</span>{" "}
-                    "resin driveways in {`{area}`}", "resin patio {`{town}`}", etc.
+                    &quot;resin driveways in {`{area}`}&quot;, &quot;resin patio {`{town}`}&quot;, etc.
                   </span>
                 </li>
                 <li className="flex gap-3">
@@ -77,7 +77,7 @@ export function SeoContentSection() {
                 {[
                   {
                     t: "Service intent",
-                    d: ""Resin driveway installation", "resin patio", "resin bound surfacing"…",
+                    d: "'Resin driveway installation', 'resin patio', 'resin bound surfacing'…",
                   },
                   {
                     t: "Local intent",
