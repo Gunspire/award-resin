@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Reveal } from "../components/Reveal";
-import { BeforeAfterSection } from "../sections/BeforeAfterSection";
 import { BottomCtaSection } from "../sections/BottomCtaSection";
 import { ChatWidget } from "../sections/ChatWidget";
 import { CtaBand } from "../sections/CtaBand";
@@ -30,9 +29,6 @@ export default function Home() {
       </Reveal>
       <Reveal>
         <ServicesSection />
-      </Reveal>
-      <Reveal>
-        <BeforeAfterSection />
       </Reveal>
       <Reveal>
         <ProjectsSection />

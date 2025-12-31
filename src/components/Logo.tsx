@@ -1,7 +1,3 @@
- "use client";
-
-import React from "react";
-
 import { cn } from "../lib/cn";
 
 type LogoProps = {
@@ -10,12 +6,10 @@ type LogoProps = {
   variant?: "default" | "inverse";
 };
 
-export function Logo({ className, alt = "Award Resin Ltd", variant = "default" }: LogoProps) {
-  const [src, setSrc] = React.useState("/award-resin-logo.svg");
-
+export function Logo({ className, alt = "Award Resin Ltd & Artificial Lawns", variant = "default" }: LogoProps) {
   return (
     <img
-      src={src}
+      src="/award-resin-logo.png"
       alt={alt}
       className={cn(
         "h-12 w-auto",
@@ -24,7 +18,6 @@ export function Logo({ className, alt = "Award Resin Ltd", variant = "default" }
       )}
       loading="eager"
       decoding="async"
-      onError={() => setSrc("/award-resin-logo.svg")}
     />
   );
 }
